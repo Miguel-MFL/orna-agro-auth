@@ -13,7 +13,15 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'heading': ['var(--font-heading)'],
+        'body': ['var(--font-body)'],
+      },
       colors: {
+        'primary-light': 'hsl(var(--primary-light))',
+        'primary-dark': 'hsl(var(--primary-dark))',
+        'secondary-dark': 'hsl(var(--secondary-dark))',
+        'accent-dark': 'hsl(var(--accent-dark))',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
